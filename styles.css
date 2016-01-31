@@ -1,0 +1,897 @@
+/*Main*/
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.page-header {
+    background-color: #ffcd34;
+    overflow: hidden;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 14px;
+
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.logo {
+    text-align: left;
+    text-decoration: none;
+    color: #000;
+    width: 240px;
+    vertical-align: middle;
+}
+
+.logo-img {
+    width: 47px;
+    height: 36px;
+    vertical-align: middle;
+
+}
+
+.logo-brand {
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: bold;
+    font-weight: lighter;
+    text-align: center;
+    padding-left: 16px;
+    vertical-align: middle;
+
+}
+
+.main-nav {
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    width: 700px;
+
+}
+
+.main-nav-item {
+    display: inline-block;
+    padding: 20px;
+
+}
+
+.main-nav-item a {
+    text-decoration: none;
+    color: #000;
+    font-family: "PT Sans";
+    font-size: 16px;
+
+}
+
+.btn-order {
+    background-color: #ffe184;
+    padding: 18px 33px 17px 27px;
+
+}
+
+.promo {
+    background-image: url(./img/background_promo.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 120px;
+
+}
+
+.promo-content {
+    width: 640px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.promo-slogan {
+    font-family: "PT Sans";
+    font-size: 44px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 35px 0;
+
+}
+
+.promo-title {
+    font-family: "PT Sans";
+    font-size: 20px;
+    color: #e1e1e1;
+    font-weight: normal;
+    margin-bottom: 25px;
+
+}
+
+.promo-btn {
+    font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ffcd34;
+    padding: 16px 52px 16px 21px;
+    width: 218px;
+    display: inline-block;
+}
+
+.consult {
+    background-color: #202e3b;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.page-subheder-title {
+    color: #d4ac36;
+    font-family: "PT Sans";
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    padding-top: 35px;
+    padding-bottom: 40px;
+
+}
+
+.consult-title {
+    color: #ffcd34;
+    font-size: 24px;
+    font-family: "PT Sans";
+    padding-bottom: 35px;
+}
+
+.consult-form {
+    font-size: 0;
+
+}
+
+.consult-form-column {
+    border: 1px solid #ffcd34;
+    background-color: #202e3b;
+    color: #eaebeb;
+    font-size: 16px;
+    padding: 16px 19px;
+    text-align: left;
+    width: 218px;
+    margin-right: 20px;
+    margin-left: 0;
+    display: inline-block;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.consult-form-order {
+    background-color: #ffcd34;
+    color: #202e3b;
+    font-weight: bold;
+    margin-right: 0;
+    padding-left: 15px;
+
+}
+
+.features {
+    background-color: #fff;
+    padding-top: 47px;
+    padding-bottom: 47px;
+    font-size: 0;
+}
+
+.features-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+
+}
+
+.features-item:before {
+    display: inline-block;
+    content: "";
+    width: 42px;
+    height: 40px;
+    -webkit-background-size: 40px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+
+}
+
+.features-item-tool:before {
+    background-image: url(./img/features-item1.jpg);
+
+}
+
+.features-item-work:before {
+    background-image: url(./img/features-item2.jpg);
+
+}
+
+.features-item-fencing:before {
+    background-image: url(./img/features-item3.jpg);
+
+}
+
+.features-item-workman:before {
+    background-image: url(./img/features-item4.jpg);
+
+}
+
+.features-item-text {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 180px;
+    font-size: 13px;
+    font-family: "PT Sans";
+
+}
+
+.technic {
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.technic-menu {
+    padding-bottom: 28px;
+    overflow: hidden;
+    width: 220px;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.subtitle {
+    padding-top: 45px;
+    padding-bottom: 36px;
+    font-size: 26px;
+    font-family: "PT Sans";
+    font-weight: bold;
+
+}
+
+.technic-menu-item {
+    text-decoration: none;
+    padding-bottom: 26px;
+
+}
+
+.technic-menu-item a {
+    font-size: 16px;
+    font-family: "PT Sans";
+    color: #000;
+}
+
+.deals {
+
+}
+
+.deals-table {
+    width: 700px;
+    border-collapse: collapse;
+
+}
+
+.deals-table tr th {
+    background-color: #dfdfdf;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    font-size: 16px;
+    font-family: "PT Sans";
+
+}
+
+.deals-table tr td {
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    font-size: 16px;
+    font-family: "PT Sans";
+
+}
+
+.deals-table tr:nth-child(even) {
+    background-color: #f3f3f3;
+
+}
+
+.deals-table tr:nth-child(odd) {
+    background-color: #ffffff;
+
+}
+
+.about {
+    background-color: #202e3b;
+    padding-bottom: 7px;
+}
+
+.about-number {
+    float: left;
+    margin-right: 60px;
+}
+
+.subtitle-white {
+    color: #ffffff;
+}
+
+.subtitle-white-normal {
+    font-weight: normal;
+}
+
+.about-number ul li {
+    display: block;
+    font-size: 18px;
+    font-family: "PT Sans";
+    color: #9e9e9e;
+    font-weight: bold;
+}
+
+.about-digit {
+    color: #f1b132;
+    font-size: 38px;
+    font-family: "PT Sans";
+    font-weight: bold;
+    margin-right: 20px;
+    margin-bottom: 34px;
+
+}
+
+.about-reviews-item {
+    overflow: hidden;
+
+}
+
+.about-reviews-img {
+    border: 3px solid #f1b132;
+    border-radius: 3px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.about-reviews-blockquote {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "PT Sans";
+    font-style: italic;
+
+}
+
+.about-reviews-cite {
+    color: #f1b132;
+    font-size: 18px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: bold;
+    display: block;
+
+}
+
+.map {
+    width: 100%;
+    height: 500px;
+}
+
+.page-footer {
+    background-color: #202e3b;
+    overflow: hidden;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 14px;
+}
+
+.logo-footer {
+    color: #ffffff;
+
+}
+
+.logo-img-footer {
+    width: 47px;
+    height: 36px;
+    vertical-align: middle;
+}
+
+.logo-brand-footer {
+    color: #ffcd34;
+}
+
+.main-nav-item-footer a {
+    color: #ffffff;
+}
+
+.main-nav-item-footer-order a {
+    color: #ffcd34;
+}
+
+/*Страница Каталога*/
+
+.excavators-rent {
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 49px;
+    padding-bottom: 49px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url(./img/background_subheader_catalog.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.page-subheader {
+    float: left;
+    width: 700px;
+    overflow: hidden;
+
+}
+
+.page-subheader-text {
+    font-size: 16px;
+    font-family: "PT Sans";
+    color: #ffffff;
+
+}
+
+.page-subheader-text-contact {
+    display: inline-block;
+}
+
+.page-subheader-consult {
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+.consult-btn {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "PT Sans";
+    color: #202e3b;
+    background-color: #ffcd34;
+    font-weight: bold;
+
+}
+
+.consult-text {
+    font-size: 16px;
+    font-family: "PT Sans";
+    color: #ffffff;
+
+}
+
+.technic-catalog {
+    background-color: #f3f3f3;
+    padding-top: 25px;
+}
+
+.icon-car {
+    background-image: url(./img/сar.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 30px;
+
+}
+
+.icon-car-text {
+    font-size: 26px;
+    font-family: "PT Sans";
+    color: #000000;
+    font-weight: bold;
+    padding-left: 40px;
+
+}
+
+.technic-menu-item-active {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.technic-menu-btn {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #354b60;
+    background-image: url(./img/download.gif);
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-family: "PT Sans";
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+    /*псевдолементом*/
+}
+
+.technic-item-wrapper {
+    width: 700px;
+    float: right;
+}
+
+.technic-items {
+    overflow: hidden;
+}
+
+.technic-item {
+    background-color: #ffffff;
+    width: 300px;
+    min-height: 400px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-image: url(./img/technic-car.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 35%;
+    position: relative;
+
+}
+
+.technic-text {
+    font-size: 21px;
+    font-family: "PT Sans";
+    color: #000000;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 200px;
+    padding-left: 30px;
+}
+
+.technic-price {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "PT Sans";
+    color: #000000;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+.technic-btn-rent {
+    font-size: 16px;
+    font-family: "PT Sans";
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #f3c331;
+    width: 120px;
+    height: 35px;
+    margin-left: 30px;
+    padding: 10px 20px;
+
+}
+
+.technic-btn-info {
+    font-size: 16px;
+    font-family: "PT Sans";
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #354b60;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    padding: 10px 20px;
+
+}
+
+.breadcrumbs {
+    text-align: center;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.breadcrumbs-nav li a {
+    text-decoration: none;
+    color: #353535;
+    font-size: 16px;
+    font-family: "PT Sans";
+
+}
+
+.breadcrumbs-nav .active {
+    color: #ffffff;
+    background-color: #354b60;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.technic-specials {
+    background-image: url(./img/background_technic_specials.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
+.technic-specials-text {
+    color: #ffffff;
+    font-size: 26px;
+    font-family: "PT Sans";
+    padding-top: 45px;
+    padding-bottom: 30px;
+
+}
+
+.technic-item-sale {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.technic-item-sale:last-child {
+    margin-right: 0;
+}
+
+.technic-price-sale {
+    color: #d12222;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "PT Sans";
+    padding-right: 20px;
+    text-decoration: line-through;
+
+}
+
+.sale {
+    background-image: url(./img/sale.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.new {
+    background-image: url(./img/new.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+/*Страница Портфолио*/
+
+.subheader-portfolio {
+    background-image: url(./img/background_subheader_portfolio.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.page-subheader-portfolio {
+    overflow: hidden;
+
+}
+
+.subheder-title-portfolio {
+    color: #d4ac36;
+    font-family: "PT Sans";
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+}
+
+.subheder-menu-portfolio {
+    float: right;
+    min-width: 700px;
+
+}
+
+.subheder-menu-item-portfolio {
+    display: inline-block;
+
+}
+
+.subheder-menu-item-portfolio a {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "PT Sans";
+    padding: 30px;
+
+}
+
+.portfolio-info-item {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.section1 {
+    background-image: url(./img/background1_portfolio.jpg);
+    border-top: 10px solid #000000;
+
+}
+
+.section2 {
+    background-image: url(./img/background2_portfolio.jpg);
+    border-top: 10px solid #000000;
+}
+
+.section3 {
+    background-image: url(./img/background3_portfolio.jpg);
+    border-top: 10px solid #000000;
+}
+
+.portfolio-info-text {
+    background-color: #ffffff;
+    width: 320px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.portfolio-info-text1 {
+    color: #202e3b;
+    font-size: 20px;
+    font-family: "PT Sans";
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.portfolio-info-text2 {
+    color: #202e3b;
+    font-size: 14px;
+    font-family: "PT Sans";
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.portfolio-info-more {
+    color: #1d333f;
+    font-size: 15px;
+    font-family: "PT Sans";
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ffcd34;
+    padding: 10px 15px;
+
+}
+
+/*Секция Контакты*/
+
+.contacts {
+    background-image: url(./img/background_contacts.jpg);
+}
+
+.page-subheder-title-contacts {
+    display: inline-block;
+
+}
+
+.contacts-info {
+    background-color: #f3f3f3;
+
+}
+
+.map-contacts {
+    width: 620px;
+    float: left;
+    margin-top: 40px;
+}
+
+.map-contacts iframe {
+    width: 100%;
+    height: 395px;
+    border: 0;
+}
+
+.consult-info {
+    float: right;
+    width: 300px;
+    
+}
+
+.consult-info-tel:before{
+    content: url(./img/call.gif);
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 20px;
+
+}
+
+.consult-info-tel {
+    color: #000000;
+    font-size: 18px;
+    font-family: "PT Sans";
+    font-weight: bold;
+
+}
+
+.consult-info-email:before {
+    content: url(./img/email.gif);
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+.consult-info-email {
+    color: #000000;
+    font-size: 18px;
+    font-family: "PT Sans";
+    font-weight: bold;
+
+}
+
+.reviews {
+    overflow: hidden;
+}
+
+.reviews-item {
+    display: inline-block;
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 70px;
+
+}
+
+.reviews-title {
+    color: #202e3b;
+    font-size: 26px;
+    font-family: "PT Sans";
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.blockquote-contacts {
+    color: #202e3b;
+    font-size: 14px;
+    font-family: "PT Sans";
+    padding-top: 25px;
+
+}
+
+.cite-contacts {
+    color: #202e3b;
+    font-size: 14px;
+    font-family: "PT Sans";
+    font-weight: bold;
+
+}
+
+.reviews:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="styles.css" rel="stylesheet">
+</head>
+</head>
+<body>
+<!-- Пишем только разметку -->
+
+<header class="page-header">
+    <div class="container">
+        <a href="#" class="logo">
+            <img class="logo-img" src="http://demo.epixx.ru/sp24-3/img/icons/logo_icon.png" alt="Машина">
+    <span class="logo-brand">
+         <b>Спецтех</b>24
+    </span>
+        </a>
+
+        <!-- main-nav-item пропиши для каждого li лучше. чем меньше в css-селекторе пунктов, тем лучше (.main-nav a будет лучше, чем .main-nav li a, просто потому что короче и быстрее обрабатывается браузером. это не ошибка, но лучше с юных лет начинать писать правильно)) -->
+        <!--ok-->
+        <nav class="main-nav">
+            <ul>
+                <li class="main-nav-item"><a href="#">О компании</a></li>
+                <li class="main-nav-item"><a href="#">Каталог</a></li>
+                <li class="main-nav-item"><a href="#">Портфолио</a></li>
+                <li class="main-nav-item"><a href="#">Контакты</a></li>
+                <li class="main-nav-item"><a href="#" class="btn-order">Заказать звонок</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="contacts">
+        <div class="container">
+            <div class="page-subheader page-subheader-contacts">
+                <h2 class="page-subheder-title page-subheder-title-contacts">Контакты</h2>
+
+                <p class="page-subheader-text page-subheader-text-contact">Свяжитесь с нами, и все будет хорошо</p>
+            </div>
+            <div class="page-subheader-consult">
+                <a href="#" class="consult-btn">Мне нужна консультация</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- здесь нет общего блока для контактной информации? -->
+    <!--готово-->
+    <div class="contacts-info">
+        <div class="container">
+            <div class="map-contacts">
+                <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.2630054415404!2d37.61860631577567!3d55.753933299372505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a738fa419%3A0x7c347d506b52311f!2z0JrRgNCw0YHQvdCw0Y8g0J_Qu9C-0YnQsNC00Yw!5e0!3m2!1sru!2sru!4v1451312471166">
+                </iframe>
+
+            </div>
+
+            <!-- почему это aside? что значит имя класса to-consult? -->
+            <!--ну типо для консультации, переделала ))-->
+            <!-- и все-таки не вижу этот блок как aside)) -->
+            <div class="consult-info">
+                <div class="consult-info-tel">+7 (812) 212 85 06</div>
+
+                <div class="consult-info-email">rent@spezteh.ru</div>
+
+                <form action="#" class="consult-info-form">
+                    <p class="consult-info-order">Заказать консультацию по подбору подходящей техники:</p>
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Телефон для связи">
+
+                    <!-- для объемного текста используется другой элемент формы -->
+                    <!--ты имеешь ввиду вместо placeholder?? для всех инпутов??-->
+                    <!-- нет, я имею в виду элемент формы textarea вместо input text для описания задачи)) -->
+                    <textarea>Описание задачи (можно примерное)</textarea>
+
+                    <!-- input типа submit -->
+                    <input type="submit" class="btn to-consult-btn" value="Получить консультацию">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section class="reviews">
+        <div class="container">
+            <h2 class="reviews-title">Отзывы</h2>
+
+            <div class="reviews-item">
+                <img src="./img/contacts_oly_molniy1.jpg" alt="oly molniy">
+                <blockquote class="blockquote-contacts">
+                    Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют работу
+                    быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.
+                    <cite class="cite-contacts">
+                        Оля Молния
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="reviews-item">
+                <img src="./img/contacts_oly_molniy2.jpg" alt="oly molniy">
+                <blockquote class="blockquote-contacts">
+                    Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют работу
+                    быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.
+                    <cite class="cite-contacts">
+                        Оля Молния
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="reviews-item">
+                <img src="./img/contacts_oly_molniy3.jpg" alt="oly molniy">
+                <blockquote class="blockquote-contacts">
+                    Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют работу
+                    быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.
+                    <cite class="cite-contacts">
+                        Оля Молния
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="reviews-item">
+                <img src="./img/contacts_oly_molniy4.jpg" alt="oly molniy">
+                <blockquote class="blockquote-contacts">
+                    Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют работу
+                    быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.
+                    <cite class="cite-contacts">
+                        Оля Молния
+                    </cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="page-footer">
+    <div class="container">
+        <a href="#" class="logo logo-footer">
+            <img class="logo-img-footer" src="http://demo.epixx.ru/sp24-3/img/icons/logo_white_icon.png" alt="Машина">
+        <span class="logo-brand logo-brand-footer">
+         <b>Спецтех</b>24
+        </span>
+        </a>
+        <nav class="main-nav">
+            <ul>
+                <li class="main-nav-item main-nav-item-footer"><a href="#">О компании</a></li>
+                <li class="main-nav-item main-nav-item-footer"><a href="#">Каталог</a></li>
+                <li class="main-nav-item main-nav-item-footer"><a href="#">Портфолио</a></li>
+                <li class="main-nav-item main-nav-item-footer"><a href="#">Контакты</a></li>
+                <li class="main-nav-item main-nav-item-footer-order"><a href="#">Заказать звонок</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>

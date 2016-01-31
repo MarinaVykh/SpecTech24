@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="page-header">
+    <div class="container">
+        <a href="#" class="logo">
+            <img class="logo-img" src="http://demo.epixx.ru/sp24-3/img/icons/logo_icon.png" alt="Машина">
+    <span class="logo-brand">
+         <b>Спецтех</b>24
+    </span>
+        </a>
+
+        <!-- main-nav-item пропиши для каждого li лучше. чем меньше в css-селекторе пунктов, тем лучше (.main-nav a будет лучше, чем .main-nav li a, просто потому что короче и быстрее обрабатывается браузером. это не ошибка, но лучше с юных лет начинать писать правильно)) -->
+        <!--ok-->
+        <nav class="main-nav">
+            <ul>
+                <li class="main-nav-item"><a href="#">О компании</a></li>
+                <li class="main-nav-item"><a href="#">Каталог</a></li>
+                <li class="main-nav-item"><a href="#">Портфолио</a></li>
+                <li class="main-nav-item"><a href="#">Контакты</a></li>
+                <li class="main-nav-item"><a href="#" class="btn-order">Заказать звонок</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section class="subheader-portfolio">
+    <div class="container">
+        <div class="page-subheader-portfolio">
+            <h2 class="subheder-title-portfolio">Портфолио</h2>
+            <nav class="subheder-menu-portfolio">
+                <ul>
+                    <li class="subheder-menu-item-portfolio"><a href="#">Все работы</a></li>
+                    <li class="subheder-menu-item-portfolio"><a href="#">Строительство</a></li>
+                    <li class="subheder-menu-item-portfolio"><a href="#">Демонтаж</a></li>
+                    <li class="subheder-menu-item-portfolio"><a href="#">Земляные работы</a></li>
+                    <li class="subheder-menu-item-portfolio"><a href="#">Перевозка</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="portfolio-info">
+
+    <!-- я, наверное, запутала тебя с этой картинкой)) три блока на странице портфолио - это три проекта. их можно сделать секциями, у каждой будет свой фон (картинка с каким-то зданием). класс для них подойдет вроде "portfolio-info-item". внутри каждой секции будет лежать как раз article, который у тебя отлично написан) -->
+    <section class="portfolio-info-item section1">
+        <div class="container">
+            <article class="portfolio-info-text">
+                <h3 class="portfolio-info-text1">Строительство жилого дома<br>
+                    в деревушке на севере холма</h3>
+
+                <p class="portfolio-info-text2">Спецтех24 - это сеть пунктов аренды<br>
+                    спецтехники Cat, оборудования и<br>
+                    специализированных инструментов для<br>
+                    выполнения большинства видов работ.
+                </p>
+                <a class="portfolio-info-more" href="#">Подробнее ></a>
+            </article>
+        </div>
+    </section>
+    <section class="portfolio-info-item section2">
+        <div class="container">
+            <article class="portfolio-info-text">
+                <h3 class="portfolio-info-text1">Строительство жилого дома<br>
+                    в деревушке на севере холма</h3>
+
+                <p class="portfolio-info-text2">Спецтех24 - это сеть пунктов аренды<br>
+                    спецтехники Cat, оборудования и<br>
+                    специализированных инструментов для<br>
+                    выполнения большинства видов работ.
+                </p>
+                <a class="portfolio-info-more" href="#">Подробнее</a>
+            </article>
+        </div>
+    </section>
+    <section class="portfolio-info-item section3">
+        <div class="container">
+            <article class="portfolio-info-text">
+                <h3 class="portfolio-info-text1">Строительство жилого дома<br>
+                    в деревушке на севере холма</h3>
+
+                <p class="portfolio-info-text2">Спецтех24 - это сеть пунктов аренды<br>
+                    спецтехники Cat, оборудования и<br>
+                    специализированных инструментов для<br>
+                    выполнения большинства видов работ.
+                </p>
+                <a class="portfolio-info-more" href="#">Подробнее</a>
+            </article>
+        </div>
+    </section>
+    </div>
+</section>
+<section class="consult">
+    <div class="container">
+        <h2 class="consult-title">Закажите бесплатную консультацию по подбору подходящей техники</h2>
+
+        <form action="#" class="consult-form">
+            <input class="consult-form-column" type="text" placeholder="Как вас зовут?">
+            <input class="consult-form-column" type="text" placeholder="Номер для связи">
+            <input class="consult-form-column" type="text" placeholder="Выберите дату">
+            <input class="consult-form-column consult-form-order" type="submit" value="Заказать консультацию">
+        </form>
+    </div>
+</section>
+<div class="features">
+    <div class="container">
+        <div class="features-item   features-item-tool">
+            <p class="features-item-text">Техника проходит обязательное обслуживание перед каждым выездом</p>
+        </div>
+        <div class="features-item   features-item-work">
+            <p class="features-item-text">Все машины оборудованы спец. сигналами, для предупрежедния аварий</p>
+        </div>
+        <div class="features-item   features-item-fencing">
+            <p class="features-item-text">Привезем модные строительные ограждения к каждому заказу от 20 000</p>
+        </div>
+        <div class="features-item   features-item-workman">
+            <p class="features-item-text">С техникой приедут квалифицированные операторы и водители</p>
+        </div>
+    </div>
+</div>
+</main>
+<footer class="page-footer">
+    <div class="container">
+        <a href="#" class="logo logo-footer">
+            <img class="logo-img-footer" src="http://demo.epixx.ru/sp24-3/img/icons/logo_white_icon.png" alt="Машина">
+        <span class="logo-brand logo-brand-footer">
+         <b>Спецтех</b>24
+        </span>
+        </a>
+        <nav class="main-nav">
+            <ul>
+                <li class="main-nav-item main-nav-item-footer"><a href="#">О компании</a></li>
+                <li class="main-nav-item main-nav-item-footer"><a href="#">Каталог</a></li>
+                <li class="main-nav-item main-nav-item-footer"><a href="#">Портфолио</a></li>
+                <li class="main-nav-item main-nav-item-footer"><a href="#">Контакты</a></li>
+                <li class="main-nav-item main-nav-item-footer-order"><a href="#">Заказать звонок</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>
