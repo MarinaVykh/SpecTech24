@@ -662,16 +662,19 @@
     top: 0;
     right: 0;
 }
+
 .technic-machine-new {
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
+
 .new {
     background-image: url(./img/new.jpg);
     background-repeat: no-repeat;
     position: absolute;
-    top:15px; right:-25px;
-    transform: rotate(45deg);
+    top: 0px;
+    right: 0px;
+    /*transform: rotate(45deg);*/
 
 }
 
@@ -809,10 +812,10 @@
 .consult-info {
     float: right;
     width: 300px;
-    
+
 }
 
-.consult-info-tel:before{
+.consult-info-tel:before {
     content: url(./img/call.gif);
     display: inline-block;
     margin-top: 40px;
@@ -834,7 +837,6 @@
     margin-top: 20px;
     margin-right: 20px;
 }
-
 
 .consult-info-email {
     color: #000000;
