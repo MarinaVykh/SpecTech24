@@ -639,6 +639,25 @@
 .technic-item-sale {
     margin-bottom: 50px;
     position: relative;
+    overflow: hidden;
+}
+
+.sale::before {
+    content: "sale";
+    display: inline-block;
+    height: 33px;
+    width: 100px;
+    background-color: #d12222;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "PT Sans";
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    right: -25px;
+    transform: rotate(45deg);
+
 }
 
 .technic-item-sale:last-child {
@@ -655,25 +674,19 @@
 
 }
 
-.sale {
-    background-image: url(./img/sale.jpg);
-    background-repeat: no-repeat;
-    position: relative;
-    top: 0;
-    right: 0;
-}
-
 .technic-machine-new {
     position: relative;
     /*overflow: hidden;*/
 }
 
 .new {
-    background-image: url(./img/new.jpg);
+    background-image: url(./img/new.gif);
     background-repeat: no-repeat;
     position: absolute;
     top: 0px;
     right: 0px;
+    height: 70px;
+    width: 70px;
     /*transform: rotate(45deg);*/
 
 }
