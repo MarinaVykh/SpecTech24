@@ -33,8 +33,9 @@
     text-align: left;
     text-decoration: none;
     color: #000;
-    width: 240px;
+    width: 220px;
     vertical-align: middle;
+    display: inline-block;
 }
 
 .logo-img {
@@ -256,6 +257,8 @@
     width: 220px;
     float: left;
     margin-right: 20px;
+    position: relative;
+    overflow: hidden;
 
 }
 
@@ -353,6 +356,7 @@
     font-weight: bold;
     margin-right: 20px;
     margin-bottom: 34px;
+    vertical-align: middle;
 
 }
 
@@ -458,20 +462,27 @@
 
 .page-subheader-text-contact {
     display: inline-block;
+    margin: 16px;
 }
 
 .page-subheader-consult {
     overflow: hidden;
     margin-top: 45px;
+    width: 240px;
 }
 
 .consult-btn {
     text-decoration: none;
     font-size: 18px;
-    font-family: "PT Sans";
+    font-family: "PT Sans", serif;
     color: #202e3b;
     background-color: #ffcd34;
     font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    padding-top: 20px;
 
 }
 
@@ -479,6 +490,7 @@
     font-size: 16px;
     font-family: "PT Sans";
     color: #ffffff;
+    margin-top: 20px;
 
 }
 
@@ -510,19 +522,29 @@
 }
 
 .technic-menu-btn {
-    color: #ffffff;
-    text-decoration: none;
-    background-color: #354b60;
-    background-image: url(./img/download.gif);
-    background-repeat: no-repeat;
-    font-size: 16px;
-    font-family: "PT Sans";
-    padding-left: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
     display: inline-block;
-    /*псевдолементом*/
+    background-color: #354b60;
+    width: 220px;
+    height: 35px;
+    font-family: "PT Sans";
+    text-decoration: none;
+    text-align: left;
+    color: #ffffff;
+    font-size: 16px;
+    padding-right: 23px;
+    padding-top: 10px;
+    padding-left: 40px;
+
 }
+
+.technic-menu-btn:before {
+    content: url(./img/download_catalog.png);
+    display: inline-block;
+    position: absolute;
+    left: 12px;
+}
+
+/*псевдолементом*/
 
 .technic-item-wrapper {
     width: 700px;
@@ -712,6 +734,7 @@
     text-align: left;
     padding-top: 45px;
     padding-bottom: 45px;
+    width: 220px;
 
 }
 
@@ -738,7 +761,7 @@
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
-    min-height: 500px;
+    /*min-height: 500px;*/
     padding-top: 100px;
     padding-bottom: 150px;
 }
@@ -857,6 +880,52 @@
     font-family: "PT Sans";
     font-weight: bold;
 
+}
+
+.consult-info-form {
+
+}
+
+.consult-info-order {
+    font-size: 16px;
+    font-family: "PT Sans";
+    color: #202e3b;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.placeholder-name {
+    width: 100%;
+    height: 35px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.placeholder-tel {
+    width: 100%;
+    height: 35px;
+    padding-left: 15px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.issue {
+    width: 100%;
+    height: 95px;
+    padding-left: 15px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.btn-get-consult {
+    font-size: 16px;
+    font-family: "PT Sans";
+    color: white;
+    width: 300px;
+    height: 45px;
+    background-color: #354b60;
+    margin-top: 10px;
+    box-sizing: border-box;
 }
 
 .reviews {
