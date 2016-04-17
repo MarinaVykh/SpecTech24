@@ -78,13 +78,17 @@
     font-size: 16px;
     /*padding-right: 40px;*/
     padding: 12px 25px;
-    transition: 0.3s linear background;
+    transition: 0.1s linear background;
 
 }
 
 .main-nav-item a:hover {
     background-color: #ffe184;
 
+}
+
+.main-nav-item a:active {
+    background-color: #f6bf16;
 }
 
 .main-nav-item:last-child a {
@@ -105,6 +109,7 @@
     padding-top: 13px;
     padding-bottom: 13px;
     padding-left: 27px;
+    margin-left: 3px;
 
 }
 
@@ -154,6 +159,15 @@
     padding: 16px 52px 16px 15px;
     width: 220px;
     display: inline-block;
+    transition: 0.1s linear border;
+}
+
+.promo-btn:hover {
+    border: 2px solid #ffecb2;
+}
+
+.promo-btn:active {
+    border: 2px solid #f6bf16;
 }
 
 .promo-btn:after {
@@ -456,10 +470,35 @@
 
 .main-nav-item-footer a {
     color: #ffffff;
+    transition: 0.1s linear color;
+    outline: none
+}
+
+.main-nav-item-footer a:hover {
+    color: #ffecb2;
+    background-color: #202e3b;
+}
+
+.main-nav-item-footer a:active {
+    color: #f6bf16;
 }
 
 .main-nav-item-footer-order a {
     color: #ffcd34;
+}
+
+.main-nav-item-footer-order:last-child a {
+    transition: 0.1s linear color;
+}
+
+.main-nav-item-footer-order:last-child a:hover {
+    background-color: #202e3b;
+    color: #ffecb2;
+}
+
+.main-nav-item-footer-order:last-child a:active {
+    background-color: #202e3b;
+    color: #f6bf16;
 }
 
 /*Страница Каталога*/
@@ -517,7 +556,15 @@
     width: 100%;
     text-align: center;
     display: inline-block;
+    transition: 0.1s linear background;
+}
 
+.consult-btn:hover {
+    background-color: #ffd966;
+}
+
+.consult-btn:active {
+    background-color: #f6bf16;
 }
 
 .consult-text {
