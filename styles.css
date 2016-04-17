@@ -26,6 +26,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     overflow: hidden;
+    font-size: 0;
 
 }
 
@@ -60,7 +61,7 @@
     text-align: right;
     display: inline-block;
     vertical-align: middle;
-    width: 700px;
+    width: 720px;
 
 }
 
@@ -75,18 +76,34 @@
     color: #000;
     font-family: "PT Sans";
     font-size: 16px;
-    padding-right: 40px;
+    /*padding-right: 40px;*/
+    padding: 12px 25px;
+    transition: 0.3s linear background;
+
+}
+
+.main-nav-item a:hover {
+    background-color: #ffe184;
 
 }
 
 .main-nav-item:last-child a {
     padding-right: 27px;
+    transition: 0.1s linear background;
+}
+
+.main-nav-item:last-child a:hover {
+    background-color: #ffecb2;
+}
+
+.main-nav-item:last-child a:active {
+    background-color: #f6bf16;
 }
 
 .btn-order {
     background-color: #ffe184;
-    padding-top: 18px;
-    padding-bottom: 17px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     padding-left: 27px;
 
 }
@@ -134,9 +151,16 @@
     text-decoration: none;
     color: #ffffff;
     border: 2px solid #ffcd34;
-    padding: 16px 52px 16px 21px;
-    width: 218px;
+    padding: 16px 52px 16px 15px;
+    width: 220px;
     display: inline-block;
+}
+
+.promo-btn:after {
+    content: url(./img/go-to-catalog.png);
+    position: absolute;
+    padding-top: 3px;
+    padding-left: 20px;
 }
 
 .consult {
@@ -166,7 +190,7 @@
 
 .consult-form {
     font-size: 0;
-
+    position: relative;
 }
 
 .consult-form-column {
@@ -184,6 +208,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    outline: none
 
 }
 
@@ -752,6 +777,7 @@
     float: right;
     width: 700px;
     text-align: right;
+    padding-top: 5px;
 
 }
 
@@ -761,7 +787,7 @@
 }
 
 .subheder-menu-item-portfolio:last-child a {
-    padding-right: 20px;
+    padding-right: 0px;
 }
 
 .subheder-menu-item-portfolio a {
@@ -836,6 +862,8 @@
 
 .contacts {
     background-image: url(./img/background_contacts.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .page-subheader-contacts {
